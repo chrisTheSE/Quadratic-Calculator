@@ -1,0 +1,40 @@
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="mystyle.css">
+      <script src="quadraticScript.js"></script>
+   </head>
+   <body>
+      <h1> Quadratic Calculator </h1>
+      <form class="center" id="fmr1">
+         Value A: <input type="text" placeholder="A" id="ValueA">
+         Value B: <input type="text" placeholder="B" id="ValueB">
+         Value C: <input type="text" placeholder="C" id="ValueC"> <br>
+         <input type="button" value="Calculate" onclick="calRoots()"> 
+      </form>
+      <table class="center">
+         <tbody>
+            <tr>
+               <th>Roots</th>
+               <td id="root">.............</td>
+            </tr>
+            <tr>
+               <th>Y-Intercept</th>
+               <td id="yInt">.............</td>
+            </tr>
+            <tr>
+               <th>Discriminant</th>
+               <td id="dis">.............</td>
+            </tr>
+            <tr>
+               <th>Vertex</th>
+               <td id="ver">.............</td>
+            </tr>
+            <tr>
+               <th>Vertex Form</th>
+               <td id="verF">.............</td>
+            </tr>
+         </tbody>
+      </table>
+      <p id="result"> </p>
+   </body>
+</html>
